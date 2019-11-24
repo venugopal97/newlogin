@@ -15,6 +15,7 @@ public class CalculatorController {
 		System.out.println("Number 1  : " + n2);
 		int c = n1+n2;
 		System.out.println("The sum  : " + c);
+		System.out.println(" addNums done");
 		m.addAttribute("s", c);
 		return"result";
 	}
